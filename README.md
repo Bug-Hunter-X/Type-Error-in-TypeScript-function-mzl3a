@@ -1,0 +1,3 @@
+This repository contains a simple TypeScript program that demonstrates a common type error. The `combine` function takes two number arrays as input and returns a new array containing all elements from both input arrays. However, if you pass string arrays to the function, you will get a type error. This is because TypeScript's type system enforces type safety, and it prevents you from performing operations that could lead to runtime errors.
+
+The solution shows how to fix the type error by using generics. Generics allow you to write functions that can work with different types without losing type safety. This makes your code more flexible and robust.
